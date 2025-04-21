@@ -1,0 +1,7 @@
+embedding_dim: 1024
+batch_size: 16
+learning_rate: !!float 2e-5
+epochs: 3
+topic_embedding_model: mixedbread-ai/mxbai-embed-large-v1
+stance_embedding_model: Samhita-kolluri/llama-constrastive-module-sample
+

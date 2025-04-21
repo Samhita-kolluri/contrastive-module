@@ -1,0 +1,27 @@
+thresholds:
+  topic_similarity: 0.6
+  stance_opposition: 0.5
+paths:
+  topic_model: "mixedbread-ai/mxbai-embed-large-v1"
+  stance_model: ""
+  vector_db: "chroma_db"
+  cache_dir: "./cache"
+settings:
+  num_contrastive_docs: 5
+  weights: [0.3, 0.7]
+retrieval:
+    max_candidates: 20
+    diversity_factor: 0.2
+document_quality:
+    min_words: 5
+    max_words: 100
+logging:
+  level: "INFO"
+  file: "logs/contrastive_retrieval.log"
+api:
+  host: "localhost"
+  port: 8000
+llm:
+  model_name: "Samhita-kolluri/llama-constrastive-module-sample"
+  num_return_sequences: 4
+  max_tokens: 256

@@ -1,0 +1,2 @@
+persist_directory: "chroma_db"
+collection_name: "contrastive_docs"
