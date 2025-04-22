@@ -22,6 +22,6 @@ api:
   host: "localhost"
   port: 8000
 llm:
-  model_name: "Samhita-kolluri/llama-constrastive-module-sample"
+  model_name: "Samhita-kolluri/llama-contrastive-module-stance"
   num_return_sequences: 4
   max_tokens: 256
