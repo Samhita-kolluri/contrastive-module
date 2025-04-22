@@ -1,0 +1,5 @@
+from transformers import AutoTokenizer
+
+model_name = "Samhita-kolluri/llama-contrastive-module-stance"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
