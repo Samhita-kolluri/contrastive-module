@@ -95,3 +95,9 @@ This module identifies documents or strings with **semantically opposing ideas**
    (Topic similarity: 0.65, Stance opposition: 0.45 → **Discarded: stance < 0.5**)
    
 ---
+**Input**:
+"Coffee is healthy"
+
+**Output**:
+
+![coffee is healthy output](docs/coffee_output.png)
